@@ -1,0 +1,71 @@
+body{
+    padding-top:800px;
+    margin:0;
+}
+.profile{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width:175px;
+}
+#welcome{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(lightblue 0%,lightgreen 100%);
+    display:table;
+    width:100%;
+    height:100%;
+    color:#368062;
+        z-index:5;
+}
+.inner{
+    text-align: center;
+    display:table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Yaldevi', sans-serif;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+#bio{
+    text-align: center;
+    font-size: 25px;
+    padding:50px;
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color: lightgreen;
+    margin:auto;
+}
+p{
+    max-width: 600px;
+    margin:20px auto;
+}
+.menu{
+    position:fixed;
+    z-index:10;
+    top:10px;
+    right:30px;
+        cursor:pointer;
+    list-style: none;
+    font-family:sans-serif;
+    }
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+.links;hover{
+    background-color: aqua;
+    
+}
